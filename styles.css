@@ -97,36 +97,35 @@ h1 {
   .launch-page {
     min-height: 100svh;
     min-height: 100dvh;
+    place-items: end center;
     background-image: url("20260806-105716.png");
     background-position: center top;
   }
 
   .backdrop {
     background:
-      linear-gradient(180deg, rgba(2, 7, 12, 0.72) 0%, rgba(2, 7, 12, 0.34) 24%, rgba(2, 7, 12, 0.02) 48%),
-      linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.02) 54%, rgba(0, 0, 0, 0.18) 100%);
+      linear-gradient(180deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.02) 52%, rgba(0, 0, 0, 0.72) 100%),
+      linear-gradient(0deg, rgba(1, 7, 12, 0.56) 0%, rgba(1, 7, 12, 0.02) 46%, rgba(1, 7, 12, 0.08) 100%);
   }
 
   .hero {
     width: min(100% - 28px, 520px);
-    margin: 22px auto 0;
+    margin: 0 auto clamp(24px, 7vh, 58px);
   }
 
   .eyebrow {
-    margin-bottom: 12px;
-    padding: 7px 11px;
-    font-size: 0.66rem;
+    display: none;
   }
 
   h1 {
-    font-size: clamp(2.75rem, 13vw, 4.8rem);
+    font-size: clamp(2.7rem, 13vw, 4.65rem);
     line-height: 0.92;
   }
 
   .lede {
-    max-width: 31ch;
-    margin-top: 14px;
-    font-size: clamp(0.9rem, 3.5vw, 1.08rem);
+    max-width: 29ch;
+    margin-top: 12px;
+    font-size: clamp(0.88rem, 3.4vw, 1.02rem);
     line-height: 1.45;
   }
 }
@@ -138,7 +137,7 @@ h1 {
 
   .hero {
     width: calc(100% - 24px);
-    margin-top: 18px;
+    margin-bottom: 26px;
   }
 
   .eyebrow {
@@ -167,15 +166,11 @@ h1 {
 
 @media (max-height: 640px) and (max-width: 760px) {
   .hero {
-    margin-top: 14px;
-  }
-
-  .eyebrow {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
   }
 
   h1 {
-    font-size: clamp(2.25rem, 11vw, 3.4rem);
+    font-size: clamp(2.2rem, 10vw, 3.2rem);
   }
 
   .lede {
