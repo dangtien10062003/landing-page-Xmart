@@ -118,7 +118,7 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(2.7rem, 13vw, 4.65rem);
+    font-size: clamp(2.45rem, 11.5vw, 4.1rem);
     line-height: 0.92;
   }
 
@@ -146,7 +146,7 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(2.45rem, 14vw, 3.55rem);
+    font-size: clamp(2.25rem, 9.5vw, 3.2rem);
   }
 }
 
@@ -156,7 +156,7 @@ h1 {
   }
 
   h1 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
 
   .lede {
@@ -170,7 +170,7 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(2.2rem, 10vw, 3.2rem);
+    font-size: clamp(2rem, 9vw, 2.9rem);
   }
 
   .lede {
